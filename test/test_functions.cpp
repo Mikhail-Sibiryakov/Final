@@ -29,13 +29,13 @@ TEST(lengthOfMaxSequence, DISABLED_ThreeZerosInASequence)
 }
 
 // numberOfOddElements
-TEST(numberOfOddElements, DISABLED_NoOddElements)
+TEST(numberOfOddElements, NoOddElements)
 {
     vector <int> v{ 2, 4, 766412, 238 };
     EXPECT_EQ(0, numberOfOddElements(v));
 }
 
-TEST(numberOfOddElements, DISABLED_TwoNegativeOddNumbers)
+TEST(numberOfOddElements, TwoNegativeOddNumbers)
 {
     vector <int> v{ 0, -1, -333, 0, 24, 0 };
     EXPECT_EQ(2, numberOfOddElements(v));

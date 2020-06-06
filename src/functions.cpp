@@ -21,7 +21,15 @@ int lengthOfMaxSequence(vector <int> vec)
 
 int numberOfOddElements(vector <int> vec)
 {
-    return 0;
+	int counter = 0;
+	for (auto elem : vec)
+	{
+		elem = abs(elem);
+		if (elem % 2 == 1)
+			counter++;
+	}
+
+	return counter;
 }
 
 int numberOfEvenElements(vector <int> vec)
